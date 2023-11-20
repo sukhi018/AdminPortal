@@ -1,0 +1,19 @@
+.login-div
+{
+    width: 50%;
+    color: #167af6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-div p
+{
+    color:red
+}
+
+.login-logo h1
+{
+    color:#167af6
+}

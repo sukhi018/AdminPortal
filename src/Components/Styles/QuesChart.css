@@ -1,0 +1,50 @@
+  .field {
+    flex: 1;
+  }
+
+  .questions-list
+  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5px
+  }
+
+  .ques-chart
+  {
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+  }
+
+  
+  .question-card {
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 0.5rem;
+    box-sizing: border-box;
+    border-radius: 1rem;
+  }
+  
+  .question-details {
+    flex: 1;
+  }
+  
+  .remove-button {
+    background-color: #ff3333;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    align-self: flex-end;
+  }
+  
+  .remove-button:hover {
+    background-color: #cc0000;
+  }
+  
+  
